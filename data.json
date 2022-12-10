@@ -1,0 +1,30 @@
+{
+    "userId": 1,
+    "firstName": "Venkat",
+    "lastName": "bvs",
+    "email": "bvs@gmail.com",
+    "departmentId":1
+}
+
+{
+    "departmentId": "1",
+    "departmentName": "IT",
+    "departmentAddress": "Bangalore",
+    "departmentCode":"IT-06"
+}
+
+
+minikube start
+minikube status
+
+git clone git url
+
+cd to 
+
+kubectl apply -f ./
+
+minikube service list
+kubectl apply -f ./
+kubectl scale --replica-3 -f .\user-service.yml
+minikube dahsboard
+kubectl delete -f ./
